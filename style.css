@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#card {
+    width: 50vw;
+    max-width: 600px;
+    min-width: 400px;
+    padding: 30px;
+
+    background: #BEA;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
+#location, #date {
+    font-style: italic;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
